@@ -4,7 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     activity: DataTypes.STRING,
     startTime: DataTypes.TIME,
     endTime: DataTypes.TIME,
-    date: DataTypes.DATE
+    date: DataTypes.DATE,
+    userId:DataTypes.INTEGER
   }, {});
   Activity.associate = function(models) {
     // associations can be defined here
