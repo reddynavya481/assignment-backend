@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     activity: DataTypes.STRING,
     startTime: DataTypes.TIME,
     endTime: DataTypes.TIME,
-    date: DataTypes.DATE,
+    date: DataTypes.DATEONLY,
     userId:DataTypes.INTEGER
   }, {});
   Activity.associate = function(models) {
