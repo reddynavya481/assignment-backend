@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const routers = require('./routes');
 app.use(bodyParser.json()); 
-const port = 3000;
+const port = 8000;
 app.use('/', routers);
 app.listen(port, (error) => {
     if (error) {

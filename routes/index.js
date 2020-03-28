@@ -11,7 +11,7 @@ router.post('/addactivity', createActivity)
 router.post('/getactivities',getActivities)
 // router.get('/validate',validateUser)
 router.post('/login',loginUser)
-router.post('/getrecord',getRecord)
+router.post('/getreport',getRecord)
 router.post('/getact/:date',getActivitiesByDate)
 router.put('/signout',signOut)
 module.exports = router;
